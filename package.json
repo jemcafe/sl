@@ -1,0 +1,17 @@
+{
+  "name": "sl-tst",
+  "version": "1.0.0",
+  "description": "code test",
+  "main": "app.js",
+  "author": "Jemaine Brown",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
