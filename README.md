@@ -28,7 +28,7 @@ Laker Kyle Male 2/13/1943 Tan
 
 ### Prerequisites
 
-You will need to have an sufficient version of [node.js](https://nodejs.org/en/)and [npm](https://nodejs.org/en/) (or [yarn](https://yarnpkg.com/lang/en/)).
+You will need to have an sufficient version of [node.js](https://nodejs.org/en/) and [npm](https://nodejs.org/en/) (or [yarn](https://yarnpkg.com/lang/en/)).
 
 ### Install
 
@@ -47,6 +47,13 @@ $ npm install jest --save-dev
 Create package.json file
 ```
 $ npm init -y
+```
+
+In the package.json file change the "main" property
+```
+{
+   "main": "app.js"
+}
 ```
 
 Create two new folders called "input" and "output". "input" will contain the text files to be read, and "output" will have the new written file.
@@ -79,7 +86,7 @@ Create various functions to organize file info.
 $ node app
 ```
 
-When the app runs an output file is created with all the files in the correct order.
+When the app runs, an output file is created with all the files in the correct order.
 
 ## Run Tests
 
