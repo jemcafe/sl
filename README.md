@@ -99,9 +99,7 @@ In the package.json, "test" should contain the following:
 }
 ```
 
-Import functions from "app.js" to "app.test.js" for testing.
-
-In "app.js"
+Export functions from "app.js"
 ```
 module.exports = {
    function: function,
@@ -110,12 +108,12 @@ module.exports = {
 }
 ```
 
-In "app.test.js"
+Import functions to "app.test.js" for testing.
 ```
 const app = require('./app');
 ```
 
-Jest runs any test file with a .test.js at the end.
+Jest runs any test file with a ".test.js" at the end.
 
 Run tests.
 ```
