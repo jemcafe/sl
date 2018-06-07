@@ -99,12 +99,13 @@ In the package.json, "test" should contain the following:
 }
 ```
 
-Import functions from "app.js" to test in "app.test.js"
+Import functions from "app.js" to "app.test.js" for testing.
 
 In "app.js"
 ```
 module.exports = {
-   function: function
+   function: function,
+   function: function,
    ...
 }
 ```
