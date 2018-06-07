@@ -49,7 +49,7 @@ Create package.json file
 $ npm init -y
 ```
 
-In the package.json file change the index.js to app.js.
+In the package.json file change the "index.js" to "app.js"
 ```
 {
    "main": "app.js"
@@ -58,7 +58,7 @@ In the package.json file change the index.js to app.js.
 
 Create two new folders called "input" and "output". "input" will contain the text files to be read, and "output" will have the new written file.
 
-Create two new files in the root folder called "app.js" and "app.test.js".
+Create two new files in the root folder called "app.js" and "app.test.js"
 
 ### Import text files
 
@@ -99,7 +99,7 @@ In the package.json, "test" should contain the following:
 }
 ```
 
-Import functions from "app.js" to be tested in "app.test.js"
+Import functions from "app.js" to test in "app.test.js"
 
 In "app.js"
 ```
