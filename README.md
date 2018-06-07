@@ -49,7 +49,7 @@ Create package.json file
 $ npm init -y
 ```
 
-In the package.json file change the "main" property
+In the package.json file change the index.js to app.js.
 ```
 {
    "main": "app.js"
