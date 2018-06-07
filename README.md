@@ -1,6 +1,6 @@
-# Code Test
+# Parse files
 
-Parse info from text files to the correct format
+Parse info from text files to the correct format and order.
 
 #### Example
 ```
