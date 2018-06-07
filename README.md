@@ -115,7 +115,7 @@ In "app.test.js"
 const app = require('./app');
 ```
 
-Jest runs any test with a .test.js at the end of the file.
+Jest runs any test file with a .test.js at the end.
 
 Run tests.
 ```
