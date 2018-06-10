@@ -125,7 +125,7 @@ const app = require('./app');
 
 Jest runs any test file with a ".test.js" at the end.
 
-Run tests.
+#### Run Test
 ```
 $ npm test
 ```
