@@ -3,12 +3,13 @@
 Parse info from text files to the correct format and order.
 
 #### Example
+Input:
 ```
 Laker, Kyle, Male, Tan, 2/13/1943
 Windel | Thomas | D | M | Red | 3-3-1985
 Pirl Jessie F 12-2-1973 Black
 ```
-to
+Output:
 ```
 Output 1:
 Pirl Jessie Female 12/2/1973 Black
@@ -56,9 +57,18 @@ In the package.json file change the "index.js" to "app.js"
 }
 ```
 
-Create two new folders called "input" and "output". "input" will contain the text files to be read, and "output" will have the new written file.
-
-Create two new files in the root folder called "app.js" and "app.test.js"
+Create two new folders called input and output. "input" will contain the text files to be read, and "output" will have the new written file. Also, Create two new files in the root folder called app.js and app.test.js
+```
+/sl-tst
+   /input
+   /node_modules
+   /output
+   app.js
+   app.test.js
+   package-lock.json
+   package.json
+   README.md
+```
 
 ### Import text files
 
@@ -71,7 +81,7 @@ const pipe = fs.readFileSync('./input/pipe.txt', 'utf8');
 const space = fs.readFileSync('./input/space.txt', 'utf8');
 ```
 
-Concatenate the strings
+Concatenate the file strings
 ```
 const inputFiles = comma + '\n' + pipe + '\n' + space;
 ```
@@ -99,7 +109,7 @@ In the package.json, "test" should contain the following:
 }
 ```
 
-Export functions from "app.js"
+Export functions from app.js
 ```
 module.exports = {
    function: function,
@@ -108,7 +118,7 @@ module.exports = {
 }
 ```
 
-Import functions to "app.test.js" for testing.
+Import functions to app.test.js for testing.
 ```
 const app = require('./app');
 ```
